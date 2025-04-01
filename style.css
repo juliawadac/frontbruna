@@ -1,3 +1,5 @@
+header {
+  background-color: darkred}
 h1{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -27,12 +29,13 @@ h3 {
 
 
 body {
-    background-image: url('https://cdn.pixabay.com/photo/2016/07/01/23/16/carnival-1492099_1280.jpg');
-background-size: 1900px;
+  background-image: url('https://cdn.pixabay.com/photo/2016/07/01/23/16/carnival-1492099_1280.jpg');
+  background-size: 1900px;
 }
 
 
 .botão {
+  float: right;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -51,6 +54,7 @@ background-size: 1900px;
     box-shadow:
       inset 2px 2px 3px rgb(255 255 255 / 60%),
       inset -2px -2px 3px rgb(0 0 0 / 60%);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .botão:hover {
@@ -62,4 +66,70 @@ background-size: 1900px;
       inset -2px -2px 3px rgb(255 255 255 / 60%),
       inset 2px 2px 3px rgb(0 0 0 / 60%);
   }
+  .ig {
+
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    background-image: linear-gradient(
+      to top left,
+      rgb(0 0 0 / 20%),
+      rgb(0 0 0 / 20%) 30%,
+      rgb(0 0 0 / 0%)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgb(255 255 255 / 60%),
+      inset -2px -2px 3px rgb(0 0 0 / 60%);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .ig:hover {
+    background-color: rgb(255 0 0 / 100%);
+  }
+  
+  .ig:active {
+    box-shadow:
+      inset -2px -2px 3px rgb(255 255 255 / 60%),
+      inset 2px 2px 3px rgb(0 0 0 / 60%);
+  }
+ 
+  .ctt {
+
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    background-image: linear-gradient(
+      to top left,
+      rgb(0 0 0 / 20%),
+      rgb(0 0 0 / 20%) 30%,
+      rgb(0 0 0 / 0%)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgb(255 255 255 / 60%),
+      inset -2px -2px 3px rgb(0 0 0 / 60%);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .ctt:hover {
+    background-color: rgb(255 0 0 / 100%);
+  }
+  
+  .ctt:active {
+    box-shadow:
+      inset -2px -2px 3px rgb(255 255 255 / 60%),
+      inset 2px 2px 3px rgb(0 0 0 / 60%);
+  }
+ 
   
